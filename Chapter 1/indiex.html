@@ -7,11 +7,39 @@
  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>
-            Yash Gandhi
+    <header class="center">
+        <h1 id="h1">
+            CSS building blocks
         </h1>        
+        <ol>
+            <li class="a one">CSS building blocks</li>
+            <ol>
+                <li class="a">Presence and value selectors</li>
+                <p >a[title]</p>
+                <p>a[href="https://example.com"]</p>
+                <p>p[class~="special"]</p>
+                <p>div[lang|="zh"]	</p>
+            </ol>
+            <li>Substring matching selectors</li>
+            <ol>
+                <li class="a">li[class^="box-"]</li>
+                <li class="">li[class$="-box"]</li>
+                <li class="">li[class*="box"]</li>
+            </ol>
+        </ol>
     </header>
+    <div class="new">
+        <h4>Pseudo-classes and pseudo-elements</h4>
+        <P>
+            :last-child
+            :only-child
+            :invalid
+        </P>
+        <h4>What is a pseudo-element?</h4>
+        <p>Pseudo-elements start with a double colon ::. ::before is an example of a pseudo-element.</p>
+        example ::first-line
+    </div>
+    <p class="box"> yash gandhi</p>
     <script src="script.js"></script>
 </body>
 </html>
