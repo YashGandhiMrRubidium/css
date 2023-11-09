@@ -1,10 +1,39 @@
-.one{
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
+.onebox{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-items:center ;
+height: 800px;
+width: 800px;
+background-color: lightblue;
+padding: 5px;
+border: 2px solid black;
 }
-.two{
-    height: 100px;
-    width: 100px;
+.box1{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    align-items: center;
+    justify-items:center ;
+    border: 2px solid black;
+    margin: 5%;
+    height: 40%;
+    width: 40%;
+    background-color: darkgreen;
+}
+.box2{
+    align-items: center;
+    justify-items:center ;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    border: 2px solid black;
+    margin: 5%;
+    height: 40%;
+    width: 40%;
     background-color: red;
+}
+.boxa{
+    display: grid;
+    height: 100px;
+    width: 60px;
+    background-color: white;
 }
