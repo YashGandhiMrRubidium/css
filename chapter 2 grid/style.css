@@ -37,3 +37,7 @@ border: 2px solid black;
     width: 60px;
     background-color: white;
 }
+.cen{
+    display: flex;
+    
+}
