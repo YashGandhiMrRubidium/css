@@ -22,3 +22,7 @@ li[class~="a"]{
 .box::before{
     content: "My name is";
 }
+:picture-in-picture {
+    box-shadow: 0 0 0 5px red;
+  }
+  
